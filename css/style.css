@@ -35,7 +35,7 @@ ul.nav-menu li{
 }
 
 ul.nav-menu li:not(:last-child){
-    padding-right: 20px;
+    padding-right: 10px;
 }
 
 .logo{
@@ -55,9 +55,9 @@ ul.nav-menu li:not(:last-child){
 }
 
 .dropdown-menu{
+    background-color: white;
     position: absolute;
     width: 150px;
-    background-color: red;
     border: 1px solid rgba(0, 0, 0, 0.568);
     box-shadow: 0 8px 7px rgba(17, 17, 17, 0.37);
     padding: 20px;
@@ -74,5 +74,13 @@ ul.nav-menu li:not(:last-child){
 }
 
 .dropdown-menu.active{
+    display: block;
+}
+
+.none{
+    display: none;
+}
+
+.block{
     display: block;
 }
