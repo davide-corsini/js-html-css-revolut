@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+        font-family: Roboto, -apple-system, "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
+}
+.container{
+    max-width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    height: 500px;
+    justify-content: center;
+}
+
+ul.nav-menu{
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(43, 41, 41, 0.425);
+    align-items: center;
+    padding: 20px 0;
+}
+ul.nav-menu li{
+    flex-basis: calc(100%/10);
+}
+ul.nav-menu li:not(:last-child){
+    padding-right: 20px;
+}
+
+.logo{
+    width: 100%;
+    padding-right: 20px;
+}
+
+#arrow-down{
+    font-size: 10px;
+}
+
+.btn{
+    padding: 7px 10px;
+    background-color: #eb008d;
+    color: white;
+    border-radius: 8px;
+    font-weight: 400;
+}

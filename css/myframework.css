@@ -1,0 +1,983 @@
+/* DEBUG COLORS */
+.debug .blue{
+    background-color: blue;
+}
+
+.debug .pink{
+    background-color: pink;
+}
+
+.debug .orange{
+    background-color: orange;
+}
+
+.debug .grey{
+    background-color: grey;
+}
+.debug .green{
+    background-color: green;;
+}
+
+.debug .violet{
+    background-color: violet;
+}
+
+
+/* GENERAL RULES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.txt_c{
+    text-align: center;
+}
+
+.txt_r{
+    text-align: right;
+}
+
+.txt_l{
+    text-align: left;
+}
+
+.txt_cap{
+    text-transform: capitalize;
+}
+
+.txt_up{
+    text-transform: uppercase;
+}
+.txt_dec_none{
+    text-decoration: none;
+}
+.list_none{
+    list-style: none;
+}
+.d_flex_r{
+    display: flex;
+    flex-direction: row;    
+}
+
+.d_flex_c{
+    display: flex;
+    flex-direction: column;
+}
+.my_relative{
+    position: relative;
+}
+.float_left{
+    float: left;
+}
+
+.float_right{
+    float: right;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+.my_width100{
+width: 100%;
+}
+
+.my_height100{
+height: 100%;
+}
+.my_max-width100{
+    max-width: 100%;
+}
+.my_max-height100{
+    max-height: 100%;
+}
+.my_relative{
+    position: relative;
+}
+
+.d_i_block{
+    display: inline-block;
+}
+
+.vert_middle{
+    vertical-align: middle;
+}
+.d_none{
+    display: none;
+}
+
+.my_pd_0{
+    padding: 0;
+}
+.my_margin_0{
+    margin: 0;
+}
+/* -------------------- */
+/* padding tot % */
+/* -------------------- */
+.my_pdx1{
+padding: 1%;
+}
+
+.my_pdx2{
+padding: 2%;
+}
+
+.my_pdx3{
+padding: 3%;
+}
+
+.my_pdx4{
+padding: 4%;
+}
+
+.my_pdx5{
+padding: 5%;
+}
+
+.my_pdx6{
+padding: 6%;
+}
+
+.my_pdx7{
+padding: 7%;
+}
+
+.my_pdx8{
+padding: 8%;
+}
+
+.my_pdx9{
+padding: 9%;
+}
+
+.my_pdx10{
+padding: 10%;
+}
+
+.my_pdx11{
+padding: 11%;
+}
+
+.my_pdx12{
+padding: 12%;
+}
+
+.my_pdx13{
+padding: 13%;
+}
+
+.my_pdx14{
+padding: 14%;
+}
+
+.my_pdx15{
+padding: 15%;
+}
+
+.my_pdx16{
+padding: 16%;
+}
+
+.my_pdx17{
+padding: 17%;
+}
+
+.my_pdx18{
+padding: 18%;
+}
+
+.my_pdx19{
+padding: 19%;
+}
+
+.my_pdx20{
+padding: 20%;
+}
+/* ---------------------
+/END PADDING TOT%
+--------------------- */
+
+/* ---------------------
+PADDING TOP IN %
+--------------------- */
+.my_pd_topx1{
+padding-top: 1%;
+}
+
+.my_pd_topx2{
+padding-top: 2%;
+}
+
+.my_pd_topx3{
+padding-top: 3%;
+}
+
+.my_pd_topx4{
+padding-top: 4%;
+}
+
+.my_pd_topx5{
+padding-top: 5%;
+}
+
+.my_pd_topx6{
+padding-top: 6%;
+}
+
+.my_pd_topx7{
+padding-top: 7%;
+}
+
+.my_pd_topx8{
+padding-top: 8%;
+}
+
+.my_pd_topx9{
+padding-top: 9%;
+}
+
+.my_pd_topx10{
+padding-top: 10%;
+}
+
+.my_pd_topx11{
+padding-top: 11%;
+}
+
+.my_pd_topx12{
+padding-top: 12%;
+}
+
+.my_pd_topx13{
+padding-top: 13%;
+}
+
+.my_pd_topx14{
+padding-top: 14%;
+}
+
+.my_pd_topx15{
+padding-top: 15%;
+}
+
+.my_pd_topx16{
+padding-top: 16%;
+}
+
+.my_pd_topx17{
+padding-top: 17%;
+}
+
+.my_pd_topx18{
+padding-top: 18%;
+}
+
+.my_pd_topx19{
+padding-top: 19%;
+}
+
+.my_pd_topx20{
+padding-top: 20%;
+}
+/* ------------------------
+/END PADDING TOP IN%
+------------------------ */ */
+
+/* ---------------------
+MY PADDING BOTTOM IN %
+--------------------- */
+.my_pd_bottomx1{
+padding-bottom: 1%;
+}
+
+.my_pd_bottomx2{
+padding-bottom: 2%;
+}
+
+.my_pd_bottomx3{
+padding-bottom: 3%;
+}
+
+.my_pd_bottomx4{
+padding-bottom: 4%;
+}
+
+.my_pd_bottomx5{
+padding-bottom: 5%;
+}
+
+.my_pd_bottomx6{
+padding-bottom: 6%;
+}
+
+.my_pd_bottomx7{
+padding-bottom: 7%;
+}
+
+.my_pd_bottomx8{
+padding-bottom: 8%;
+}
+
+.my_pd_bottomx9{
+padding-bottom: 9%;
+}
+
+.my_pd_bottomx10{
+padding-bottom: 10%;
+}
+
+.my_pd_bottomx11{
+padding-bottom: 11%;
+}
+
+.my_pd_bottomx12{
+padding-bottom: 12%;
+}
+
+.my_pd_bottomx13{
+padding-bottom: 13%;
+}
+
+.my_pd_bottomx14{
+padding-bottom: 14%;
+}
+
+.my_pd_bottomx15{
+padding-bottom: 15%;
+}
+
+.my_pd_bottomx16{
+padding-bottom: 16%;
+}
+
+.my_pd_bottomx17{
+padding-bottom: 17%;
+}
+
+.my_pd_bottomx18{
+padding-bottom: 18%;
+}
+
+.my_pd_bottomx19{
+padding-bottom: 19%;
+}
+
+.my_pd_bottomx20{
+padding-bottom: 20%;
+}
+/* --------------------
+/END PADDING BOTTOM
+------------------- */
+
+/* ---------------------
+MY PADDING RIGHT IN %
+--------------------- */
+.my_pd_rightx1{
+padding-right: 1%;
+}
+
+.my_pd_rightx2{
+padding-right: 2%;
+}
+
+.my_pd_rightx3{
+padding-right: 3%;
+}
+
+.my_pd_rightx4{
+padding-right: 4%;
+}
+
+.my_pd_rightx5{
+padding-right: 5%;
+}
+
+.my_pd_rightx6{
+padding-right: 6%;
+}
+
+.my_pd_rightx7{
+padding-right: 7%;
+}
+
+.my_pd_rightx8{
+padding-right: 8%;
+}
+
+.my_pd_rightx9{
+padding-right: 9%;
+}
+
+.my_pd_rightx10{
+padding-right: 10%;
+}
+
+.my_pd_rightx11{
+padding-right: 11%;
+}
+
+.my_pd_rightx12{
+padding-right: 12%;
+}
+
+.my_pd_rightx13{
+padding-right: 13%;
+}
+
+.my_pd_rightx14{
+padding-right: 14%;
+}
+
+.my_pd_rightx15{
+padding-right: 15%;
+}
+
+.my_pd_rightx16{
+padding-right: 16%;
+}
+
+.my_pd_rightx17{
+padding-right: 17%;
+}
+
+.my_pd_rightx18{
+padding-right: 18%;
+}
+
+.my_pd_rightx19{
+padding-right: 19%;
+}
+
+.my_pd_rightx20{
+padding-right: 20%;
+}
+/* --------------------
+/END PADDING RIGHT
+------------------- */
+
+/* ---------------------
+MY PADDING LEFT IN %
+--------------------- */
+.my_pd_leftx1{
+padding-left: 1%;
+}
+
+.my_pd_leftx2{
+padding-left: 2%;
+}
+
+.my_pd_leftx3{
+padding-left: 3%;
+}
+
+.my_pd_leftx4{
+padding-left: 4%;
+}
+
+.my_pd_leftx5{
+padding-left: 5%;
+}
+
+.my_pd_leftx6{
+padding-left: 6%;
+}
+
+.my_pd_leftx7{
+padding-left: 7%;
+}
+
+.my_pd_leftx8{
+padding-left: 8%;
+}
+
+.my_pd_leftx9{
+padding-left: 9%;
+}
+
+.my_pd_leftx10{
+padding-left: 10%;
+}
+
+.my_pd_leftx11{
+padding-left: 11%;
+}
+
+.my_pd_leftx12{
+padding-left: 12%;
+}
+
+.my_pd_leftx13{
+padding-left: 13%;
+}
+
+.my_pd_leftx14{
+padding-left: 14%;
+}
+
+.my_pd_leftx15{
+padding-left: 15%;
+}
+
+.my_pd_leftx16{
+padding-left: 16%;
+}
+
+.my_pd_leftx17{
+padding-left: 17%;
+}
+
+.my_pd_leftx18{
+padding-left: 18%;
+}
+
+.my_pd_leftx19{
+padding-left: 19%;
+}
+
+.my_pd_leftx20{
+padding-left: 20%;
+}
+/* --------------------
+/END PADDING LEFT
+------------------- */
+
+/* -------------------
+MARGIN TOT IN %
+------------------- */
+.my_mx1{
+margin: 1%;
+}
+
+.my_mx2{
+margin: 2%;
+}
+
+.my_mx3{
+margin: 3%;
+}
+
+.my_mx4{
+margin: 4%;
+}
+
+.my_mx5{
+margin: 5%;
+}
+
+.my_mx6{
+margin: 6%;
+}
+
+.my_mx7{
+margin: 7%;
+}
+
+.my_mx8{
+margin: 8%;
+}
+
+.my_mx9{
+margin: 9%;
+}
+
+.my_mx10{
+margin: 10%;
+}
+
+.my_mx11{
+margin: 11%;
+}
+
+.my_mx12{
+margin: 12%;
+}
+
+.my_mx13{
+margin: 13%;
+}
+
+.my_mx14{
+margin: 14%;
+}
+
+.my_mx15{
+margin: 15%;
+}
+
+.my_mx16{
+margin: 16%;
+}
+
+.my_mx17{
+margin: 17%;
+}
+
+.my_mx18{
+margin: 18%;
+}
+
+.my_mx19{
+margin: 19%;
+}
+
+.my_mx20{
+margin: 20%;
+}
+/* -------------------
+/END MARGIN IN %
+-------------------- */
+
+/* -------------------
+MARGIN TOP IN %
+------------------- */
+.my_m_topx1{
+margin-top: 1%;
+}
+
+.my_m_topx2{
+margin-top: 2%;
+}
+
+.my_m_topx3{
+margin-top: 3%;
+}
+
+.my_m_topx4{
+margin-top: 4%;
+}
+
+.my_m_topx5{
+margin-top: 5%;
+}
+
+.my_m_topx6{
+margin-top: 6%;
+}
+
+.my_m_topx7{
+margin-top: 7%;
+}
+
+.my_m_topx8{
+margin-top: 8%;
+}
+
+.my_m_topx9{
+margin-top: 9%;
+}
+
+.my_m_topx10{
+margin-top: 10%;
+}
+
+.my_m_topx11{
+margin-top: 11%;
+}
+
+.my_m_topx12{
+margin-top: 12%;
+}
+
+.my_m_topx13{
+margin-top: 13%;
+}
+
+.my_m_topx14{
+margin-top: 14%;
+}
+
+.my_m_topx15{
+margin-top: 15%;
+}
+
+.my_m_topx16{
+margin-top: 16%;
+}
+
+.my_m_topx17{
+margin-top: 17%;
+}
+
+.my_m_topx18{
+margin-top: 18%;
+}
+
+.my_m_topx19{
+margin-top: 19%;
+}
+
+.my_m_topx20{
+margin-top: 20%;
+}
+
+/* --------------------
+/END MARGIN TOP IN %
+------------------- */
+
+
+.my_m_bottomx1{
+margin-bottom: 1%;
+}
+
+.my_m_bottomx2{
+margin-bottom: 2%;
+}
+
+.my_m_bottomx3{
+margin-bottom: 3%;
+}
+
+.my_m_bottomx4{
+margin-bottom: 4%;
+}
+
+.my_m_bottomx5{
+margin-bottom: 5%;
+}
+
+.my_m_bottomx6{
+margin-bottom: 6%;
+}
+
+.my_m_bottomx7{
+margin-bottom: 7%;
+}
+
+.my_m_bottomx8{
+margin-bottom: 8%;
+}
+
+.my_m_bottomx9{
+margin-bottom: 9%;
+}
+
+.my_m_bottomx10{
+margin-bottom: 10%;
+}
+
+.my_m_bottomx11{
+margin-bottom: 11%;
+}
+
+.my_m_bottomx12{
+margin-bottom: 12%;
+}
+
+.my_m_bottomx13{
+margin-bottom: 13%;
+}
+
+.my_m_bottomx14{
+margin-bottom: 14%;
+}
+
+.my_m_bottomx15{
+margin-bottom: 15%;
+}
+
+.my_m_bottomx16{
+margin-bottom: 16%;
+}
+
+.my_m_bottomx17{
+margin-bottom: 17%;
+}
+
+.my_m_bottomx18{
+margin-bottom: 18%;
+}
+
+.my_m_bottomx19{
+margin-bottom: 19%;
+}
+
+.my_m_bottomx20{
+margin-bottom: 20%;
+}
+
+/* ------------------------
+/END MARGIN BOTTOM
+------------------------- */
+
+/* ------------------------
+/MARGIN RIGHT
+------------------------- */
+.my_m_rigthx1{
+margin-right: 1%;
+}
+
+.my_m_rigthx2{
+margin-right: 2%;
+}
+
+.my_m_rigthx3{
+margin-right: 3%;
+}
+
+.my_m_rigthx4{
+margin-right: 4%;
+}
+
+.my_m_rigthx5{
+margin-right: 5%;
+}
+
+.my_m_rigthx6{
+margin-right: 6%;
+}
+
+.my_m_rigthx7{
+margin-right: 7%;
+}
+
+.my_m_rigthx8{
+margin-right: 8%;
+}
+
+.my_m_rigthx9{
+margin-right: 9%;
+}
+
+.my_m_rigthx10{
+margin-right: 10%;
+}
+
+.my_m_rigthx11{
+margin-right: 11%;
+}
+
+.my_m_rigthx12{
+margin-right: 12%;
+}
+
+.my_m_rigthx13{
+margin-right: 13%;
+}
+
+.my_m_rigthx14{
+margin-right: 14%;
+}
+
+.my_m_rigthx15{
+margin-right: 15%;
+}
+
+.my_m_rigthx16{
+margin-right: 16%;
+}
+
+.my_m_rigthx17{
+margin-right: 17%;
+}
+
+.my_m_rigthx18{
+margin-right: 18%;
+}
+
+.my_m_rigthx19{
+margin-right: 19%;
+}
+
+.my_m_rigthx20{
+margin-right: 20%;
+}
+
+/* ---------------
+/END MARGIN RIGHT
+--------------- */
+
+/* ----------------
+START MARGIN LEFT
+----------------- */
+.my_m_leftx1{
+margin-left: 1%;
+}
+
+.my_m_leftx2{
+margin-left: 2%;
+}
+
+.my_m_leftx3{
+margin-left: 3%;
+}
+
+.my_m_leftx4{
+margin-left: 4%;
+}
+
+.my_m_leftx5{
+margin-left: 5%;
+}
+
+.my_m_leftx6{
+margin-left: 6%;
+}
+
+.my_m_leftx7{
+margin-left: 7%;
+}
+
+.my_m_leftx8{
+margin-left: 8%;
+}
+
+.my_m_leftx9{
+margin-left: 9%;
+}
+
+.my_m_leftx10{
+margin-left: 10%;
+}
+
+.my_m_leftx11{
+margin-left: 11%;
+}
+
+.my_m_leftx12{
+margin-left: 12%;
+}
+
+.my_m_leftx13{
+margin-left: 13%;
+}
+
+.my_m_leftx14{
+margin-left: 14%;
+}
+
+.my_m_leftx15{
+margin-left: 15%;
+}
+
+.my_m_leftx16{
+margin-left: 16%;
+}
+
+.my_m_leftx17{
+margin-left: 17%;
+}
+
+.my_m_leftx18{
+margin-left: 18%;
+}
+
+.my_m_leftx19{
+margin-left: 19%;
+}
+
+.my_m_leftx20{
+margin-left: 20%;
+}
+/* -----------------
+/END PADDING LEFT
+----------------- */
+
+
+
+
+
