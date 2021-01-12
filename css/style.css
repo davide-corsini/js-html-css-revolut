@@ -57,10 +57,10 @@ ul.nav-menu li:not(:last-child){
 .dropdown-menu{
     background-color: white;
     position: absolute;
-    width: 150px;
+    width: 200px;
     border: 1px solid rgba(0, 0, 0, 0.568);
     box-shadow: 0 8px 7px rgba(17, 17, 17, 0.37);
-    padding: 20px;
+    padding: 5px;
     top: 30px;
     left: 20%;
     transform: translateX(-50%);
@@ -68,9 +68,8 @@ ul.nav-menu li:not(:last-child){
 }
 
 .dropdown-menu ul li{
-    padding: 10px;
+    padding: 25px 10px;
     font-size: 10px;
-    line-height: 1.6;
 }
 
 .dropdown-menu.active{
