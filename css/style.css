@@ -54,7 +54,7 @@ ul.nav-menu li:not(:last-child){
     font-weight: 400;
 }
 
-.with-dropdown{
+.dropdown-menu{
     position: absolute;
     width: 150px;
     background-color: red;
@@ -64,9 +64,13 @@ ul.nav-menu li:not(:last-child){
     top: 30px;
     left: 20%;
     transform: translateX(-50%);
+    display: none;
 }
 
-.with-dropdown ul li{
+.dropdown-menu ul li{
     padding: 10px;
 }
 
+.dropdown-menu.active{
+    display: block;
+}
