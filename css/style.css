@@ -30,6 +30,7 @@ ul.nav-menu{
 }
 
 ul.nav-menu li{
+    height: 30px;
     flex-basis: calc(100%/10);
 }
 
@@ -47,11 +48,10 @@ ul.nav-menu li:not(:last-child){
 }
 
 .btn{
-    padding: 7px 10px;
+    padding: 5px 4px;
     background-color: #eb008d;
     color: white;
     border-radius: 8px;
-    font-weight: 400;
 }
 
 .dropdown-menu{
@@ -69,6 +69,8 @@ ul.nav-menu li:not(:last-child){
 
 .dropdown-menu ul li{
     padding: 10px;
+    font-size: 10px;
+    line-height: 1.6;
 }
 
 .dropdown-menu.active{
