@@ -17,14 +17,14 @@ a{
 .container{
     max-width: 80%;
     margin: auto;
-    border: 1px solid black;
-    height: 500px;
-    justify-content: center;
+    /* debug */
+    /* border: 1px solid black;
+    height: 500px; */
 }
 
 ul.nav-menu{
     width: 100%;
-    box-shadow: 0 5px 10px rgba(43, 41, 41, 0.425);
+    box-shadow: 0px 15px 10px -15px rgba(39, 38, 38, 0.157); 
     align-items: center;
     padding: 20px 0;
 }
@@ -62,6 +62,7 @@ ul.nav-menu li:not(:last-child){
     position: absolute;
     width: 200px;
     border: 1px solid rgba(0, 0, 0, 0.568);
+    border-radius: 6px;
     box-shadow: 0 8px 7px rgba(17, 17, 17, 0.37);
     padding: 5px;
     top: 30px;
@@ -71,7 +72,7 @@ ul.nav-menu li:not(:last-child){
 }
 
 .dropdown-menu ul li{
-    padding: 25px 10px;
+    padding: 20px 10px;
     font-size: 10px;
 }
 
@@ -87,10 +88,14 @@ ul.nav-menu li:not(:last-child){
     display: block;
 }
 a{
-    color: 
+    color: #8c8d96;
 }
 .nero{
     font-weight: 400;
-    color: black;
     text-transform: uppercase;
+}
+
+.black{
+    color: black;
+    font-weight: 400;
 }
