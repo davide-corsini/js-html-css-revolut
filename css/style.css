@@ -99,3 +99,9 @@ a{
     color: black;
     font-weight: 400;
 }
+
+.dropdown-menu ul > li:hover{
+    color: black;
+    cursor: pointer;
+    font-weight: 500;
+}
