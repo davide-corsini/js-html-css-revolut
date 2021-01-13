@@ -28,8 +28,11 @@ ul.nav-menu{
     align-items: center;
     padding: 20px 0;
 }
-
+ul.nav-menu li a{
+    text-decoration: none;
+}
 ul.nav-menu li{
+    color: #8c8d96;
     height: 30px;
     flex-basis: calc(100%/10);
 }
@@ -82,4 +85,12 @@ ul.nav-menu li:not(:last-child){
 
 .block{
     display: block;
+}
+a{
+    color: 
+}
+.nero{
+    font-weight: 400;
+    color: black;
+    text-transform: uppercase;
 }

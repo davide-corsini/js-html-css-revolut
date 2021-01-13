@@ -2,6 +2,7 @@ $(document).ready(function(){
 
     $('.with-dropdown').hover(function(){
         $(this).find('.dropdown-menu').toggleClass('active');
+        $(this).toggleClass('nero');
     });
     
     $('.with-dropdown-click').click(function(){
